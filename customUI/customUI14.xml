@@ -1,0 +1,31 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+<ribbon startFromScratch="false">
+<tabs>
+
+<tab id="IDTab5" label="ChatGPT" insertAfterMso="TabHome">
+	
+	<group id="IDGroup7" label="ChatGPT">                
+        <button id="btn3" label="AI Assistant" size="large" onAction="splittext" imageMso="SendUpdate" />
+	</group>	    
+
+	<group id="IDGroup77" label="Insights">                
+        <button id="btn31" label="Generate Insights" size="large" onAction="AIAssistant_Insights2" imageMso="ChartEditDataSource" />
+	</group>	    
+	    
+	<group id="IDGroup5" label="Update">
+	   <button id="btn2" label="Update Key" size="large" onAction="updatekey" imageMso="AdpDiagramKeys" />	    
+	</group>
+	<group id="IDGroup6" label="Check">
+	   <button id="btn1" label="Check Key" size="large" onAction="getkey" imageMso="FormControlEditBox" />	    
+	</group>
+	<group id="IDGroup66" label="FineTune">        
+        <button id="btn22" label="Fine Tune Response" size="large" onAction="editParameters" imageMso="DefinePrintStyles" />
+	</group>	    
+	<group id="IDGroup8" label="About">                
+        <button id="btn4" label="Info" size="large" onAction="aboutus" imageMso="Info" />
+	</group>	    
+</tab>
+
+</tabs>
+</ribbon>
+</customUI>
